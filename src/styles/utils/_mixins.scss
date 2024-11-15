@@ -1,0 +1,43 @@
+@import "./vars";
+
+@mixin hover($_property, $_toValue) {
+  transition: #{$_property} 0.3s;
+  &:hover {
+    #{$_property}: $_toValue;
+  }
+}
+
+@mixin onTablet {
+  @media (min-width: $tablet-min-width) {
+    @content;
+  }
+}
+
+@mixin onDesktop {
+  @media (min-width: $desktop-min-width) {
+    @content;
+  }
+}
+
+@mixin onDesktop1440 {
+  @media (min-width: $desktop-min-width-1440) {
+    @content;
+  }
+}
+
+@mixin contentPaddingInline {
+  padding-inline: 20px;
+
+  @include onTablet {
+    padding-inline: 27px;
+  }
+
+  @include onDesktop {
+    padding-inline: 50px;
+  }
+
+  @include onDesktop1440 {
+    padding-inline: 130px;
+  }
+}
+

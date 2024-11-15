@@ -1,0 +1,19 @@
+@import "../utils/utils";
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-image: url("./styles/images/Background-mobile.png");
+
+  @include onTablet {
+    background-image: url("./styles/images/background-desk.png");
+    
+  }
+}

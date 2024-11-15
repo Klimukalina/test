@@ -1,0 +1,61 @@
+@import "../utils/mixins";
+
+.wheel {
+  position: relative;
+  margin: 0 auto;
+  max-width: 200px;
+  height: 350px;
+
+  @include onTablet {
+    width: 400px;
+    height: 400px;
+  }
+
+  &__first,
+  &__second,
+  &__third,
+  &__fourth {
+    max-width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    @include onTablet {
+      max-width: 590px;
+    }
+  }
+
+  &__first {
+    z-index: 1;
+  }
+
+  &__second {
+    transform-origin: 50% 50%;
+    z-index: 2;
+
+  }
+
+  &__third {
+    z-index: 3;
+  }
+
+  &__fourth {
+    z-index: 4;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(1080deg);
+  }
+}
+
+
+.wheel__second.spin {
+  animation: spin 2s cubic-bezier(0.1, 0, 0.2, 1) forwards;
+}
+

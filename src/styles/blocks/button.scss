@@ -1,0 +1,30 @@
+@import "../utils/vars";
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 65px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 86px;
+  border-radius: 10px;
+  background-color: $button-color;
+  box-shadow: 0px 4px 10px #E31E01;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.play-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}

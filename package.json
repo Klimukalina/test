@@ -1,0 +1,12 @@
+{
+  "name": "test1",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel --open --port 3000",
+    "build": "parcel build --public-url/=dist"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.13.0",
+    "parcel": "^2.13.0"
+  }
+}
