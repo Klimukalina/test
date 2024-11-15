@@ -1,0 +1,43 @@
+@import "./styles/utils/_mixins.scss";
+@import "./styles/blocks/wheel.scss";
+@import "./styles/blocks/page.scss";
+@import "./styles/blocks/gears.scss";
+@import "./styles/blocks/promo.scss";
+@import "./styles/blocks/register.scss";
+@import "./styles/blocks/button.scss";
+@import "./styles/blocks/password.scss";
+@import "./styles/blocks/disk.scss";
+
+
+.html {
+  font-family: 'Inter', sans-serif;
+  color: #E21F26;
+  font-size: 12px;
+}
+
+.body {
+  overflow-x: hidden;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  z-index: 4;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh; 
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
