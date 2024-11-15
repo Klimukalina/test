@@ -1,5 +1,5 @@
-4376
-33C:\Users\Admin\Desktop\test1\dist133761493855225032 1
+4377
+33C:\Users\Admin\Desktop\test1\dist133761506300083287 1
 60C:\Users\Admin\Desktop\test1\node_modules\readdirp\README.md133759770323624623 0
 89C:\Users\Admin\Desktop\test1\node_modules\lmdb\dependencies\lz4\lib\dll\example\README.md133759768143080204 0
 76C:\Users\Admin\Desktop\test1\node_modules\domutils\lib\esm\querying.d.ts.map133759768109581358 0
@@ -13,7 +13,7 @@
 68C:\Users\Admin\Desktop\test1\node_modules\entities\lib\esm\generated133759768119180354 1
 70C:\Users\Admin\Desktop\test1\node_modules\@swc\helpers\esm\_extends.js133759768142504226 0
 62C:\Users\Admin\Desktop\test1\node_modules\browserslist\LICENSE133759768036306844 0
-41C:\Users\Admin\Desktop\test1\package.json133759970900799867 0
+41C:\Users\Admin\Desktop\test1\package.json133761505583397598 0
 80C:\Users\Admin\Desktop\test1\node_modules\@swc\helpers\esm\_apply_decs_2203_r.js133759768128918357 0
 84C:\Users\Admin\Desktop\test1\node_modules\posthtml\node_modules\posthtml-parser\dist133759768053338500 1
 65C:\Users\Admin\Desktop\test1\node_modules\@parcel\rust\index.d.ts133759768218206792 0
@@ -25,10 +25,10 @@
 77C:\Users\Admin\Desktop\test1\node_modules\type-fest\source\tsconfig-json.d.ts133759768109491310 0
 67C:\Users\Admin\Desktop\test1\node_modules\posthtml-render\readme.md133759768047652696 0
 85C:\Users\Admin\Desktop\test1\node_modules\@parcel\packager-wasm\src\wasm-sourcemap.js133759768078497103 0
-43C:\Users\Admin\Desktop\test1\src\index.html133761481043062467 0
+43C:\Users\Admin\Desktop\test1\src\index.html133761506068934255 0
 88C:\Users\Admin\Desktop\test1\node_modules\posthtml\node_modules\dom-serializer\README.md133759768075168164 0
 47C:\Users\Admin\Desktop\test1\node_modules\@lmdb133759971657032459 1
-41C:\Users\Admin\Desktop\test1\src\index.js133761465451566654 0
+41C:\Users\Admin\Desktop\test1\src\index.js133761496179286709 0
 73C:\Users\Admin\Desktop\test1\node_modules\caniuse-lite\data\regions\NR.js133759768182911280 0
 80C:\Users\Admin\Desktop\test1\node_modules\caniuse-lite\data\features\fontface.js133759768171992553 0
 77C:\Users\Admin\Desktop\test1\node_modules\@swc\helpers\_\_update\package.json133759768171431168 0
@@ -83,7 +83,7 @@
 75C:\Users\Admin\Desktop\test1\node_modules\@parcel\graph\test\BitSet.test.js133759768090341871 0
 60C:\Users\Admin\Desktop\test1\node_modules\lmdb\node-index.js133759768138112320 0
 89C:\Users\Admin\Desktop\test1\node_modules\posthtml\node_modules\posthtml-parser\readme.md133759768049375553 0
-45C:\Users\Admin\Desktop\test1\src\styles\utils133759766787396860 1
+45C:\Users\Admin\Desktop\test1\src\styles\utils133761496908079800 1
 80C:\Users\Admin\Desktop\test1\node_modules\caniuse-lite\data\features\promises.js133759768184410612 0
 92C:\Users\Admin\Desktop\test1\node_modules\caniuse-lite\data\features\css-at-counter-style.js133759768137540807 0
 108C:\Users\Admin\Desktop\test1\node_modules\posthtml\node_modules\dom-serializer\lib\esm\foreignNames.d.ts.map133759768057097453 0
@@ -116,7 +116,7 @@
 73C:\Users\Admin\Desktop\test1\node_modules\caniuse-lite\data\regions\AE.js133759768057301351 0
 75C:\Users\Admin\Desktop\test1\node_modules\@parcel\workers\src\WorkerFarm.js133759768116603444 0
 87C:\Users\Admin\Desktop\test1\node_modules\@parcel\watcher\src\windows\WindowsBackend.cc133759768090068029 0
-57C:\Users\Admin\Desktop\test1\src\styles\utils\_utils.scss133759735266563498 0
+57C:\Users\Admin\Desktop\test1\src\styles\utils\_utils.scss133761496908079800 0
 63C:\Users\Admin\Desktop\test1\src\styles\images\wheel-center.png133747592030000000 0
 83C:\Users\Admin\Desktop\test1\node_modules\msgpackr-extract\node_modules\detect-libc133759768050306437 1
 73C:\Users\Admin\Desktop\test1\node_modules\caniuse-lite\data\regions\VU.js133759768188987401 0
@@ -1803,7 +1803,7 @@
 77C:\Users\Admin\Desktop\test1\node_modules\@parcel\types-internal\package.json133759768088656695 0
 84C:\Users\Admin\Desktop\test1\node_modules\caniuse-lite\data\features\svg-fragment.js133759768186330467 0
 69C:\Users\Admin\Desktop\test1\node_modules\lmdb\src\ordered-binary.cpp133759768126173766 0
-65C:\Users\Admin\Desktop\test1\dist\gears-bottom-right.568a0f4d.png133761493294156426 0
+65C:\Users\Admin\Desktop\test1\dist\gears-bottom-right.568a0f4d.png133761506299133865 0
 66C:\Users\Admin\Desktop\test1\node_modules\@parcel\reporter-cli\lib133759768101864739 1
 58C:\Users\Admin\Desktop\test1\node_modules\lmdb\src\txn.cpp133759768126419747 0
 63C:\Users\Admin\Desktop\test1\node_modules\domutils\lib\feeds.js133759768042756117 0
@@ -2047,7 +2047,7 @@
 58C:\Users\Admin\Desktop\test1\node_modules\is-glob\index.js133759768037696562 0
 85C:\Users\Admin\Desktop\test1\node_modules\caniuse-lite\data\features\web-animation.js133759768190627817 0
 73C:\Users\Admin\Desktop\test1\node_modules\caniuse-lite\data\regions\BY.js133759768124983470 0
-52C:\Users\Admin\Desktop\test1\dist\wheel.f1d6f1a3.png133761493295025012 0
+52C:\Users\Admin\Desktop\test1\dist\wheel.f1d6f1a3.png133761506299763768 0
 57C:\Users\Admin\Desktop\test1\node_modules\is-glob\LICENSE133759768036068080 0
 100C:\Users\Admin\Desktop\test1\node_modules\@swc\helpers\_\_class_apply_descriptor_update\package.json133759768161211948 0
 62C:\Users\Admin\Desktop\test1\node_modules\is-glob\package.json133759768039697691 0
@@ -2115,7 +2115,7 @@
 85C:\Users\Admin\Desktop\test1\node_modules\@parcel\types-internal\lib\SemverRange.d.ts133759768094896759 0
 81C:\Users\Admin\Desktop\test1\node_modules\@parcel\core\test\TargetRequest.test.js133759768154605170 0
 72C:\Users\Admin\Desktop\test1\node_modules\htmlparser2\lib\esm\index.d.ts133759768098415641 0
-64C:\Users\Admin\Desktop\test1\dist\dices-bottom-left.bbd51134.png133761493294156426 0
+64C:\Users\Admin\Desktop\test1\dist\dices-bottom-left.bbd51134.png133761506299575411 0
 71C:\Users\Admin\Desktop\test1\node_modules\domutils\lib\traversal.js.map133759768114525531 0
 72C:\Users\Admin\Desktop\test1\node_modules\@parcel\transformer-js\LICENSE133759768063518446 0
 70C:\Users\Admin\Desktop\test1\node_modules\htmlparser2\lib\esm\index.js133759768038906284 0
@@ -2293,7 +2293,7 @@
 54C:\Users\Admin\Desktop\test1\node_modules\entities\lib133759768121692223 1
 75C:\Users\Admin\Desktop\test1\node_modules\@parcel\fs\test\OverlayFS.test.js133759768097206199 0
 79C:\Users\Admin\Desktop\test1\node_modules\@parcel\workers\test\cpuCount.test.js133759768091226330 0
-61C:\Users\Admin\Desktop\test1\dist\gears-top-left.7ffe3ef5.png133761493294173005 0
+61C:\Users\Admin\Desktop\test1\dist\gears-top-left.7ffe3ef5.png133761506298734293 0
 58C:\Users\Admin\Desktop\test1\node_modules\entities\LICENSE133759768035929945 0
 70C:\Users\Admin\Desktop\test1\node_modules\entities\lib\decode.d.ts.map133759768105272349 0
 76C:\Users\Admin\Desktop\test1\node_modules\entities\lib\decode_codepoint.d.ts133759768116788925 0
@@ -2709,7 +2709,7 @@
 89C:\Users\Admin\Desktop\test1\node_modules\caniuse-lite\data\features\wasm-relaxed-simd.js133759768189700453 0
 88C:\Users\Admin\Desktop\test1\node_modules\@parcel\core\test\fixtures\parcel\package.json133759768161862391 0
 73C:\Users\Admin\Desktop\test1\node_modules\caniuse-lite\data\regions\CM.js133759768130775176 0
-51C:\Users\Admin\Desktop\test1\dist\index.579125c3.js133761493295948569 0
+51C:\Users\Admin\Desktop\test1\dist\index.579125c3.js133761506299778261 0
 73C:\Users\Admin\Desktop\test1\node_modules\caniuse-lite\data\regions\CR.js133759768135863943 0
 73C:\Users\Admin\Desktop\test1\node_modules\caniuse-lite\data\regions\CY.js133759768164659185 0
 81C:\Users\Admin\Desktop\test1\node_modules\caniuse-lite\data\features\dommatrix.js133759768167398060 0
@@ -3219,7 +3219,7 @@
 83C:\Users\Admin\Desktop\test1\node_modules\caniuse-lite\data\features\shadowdomv1.js133759768185618227 0
 85C:\Users\Admin\Desktop\test1\node_modules\caniuse-lite\data\features\sharedworkers.js133759768185663970 0
 75C:\Users\Admin\Desktop\test1\node_modules\caniuse-lite\data\features\sni.js133759768185755209 0
-56C:\Users\Admin\Desktop\test1\dist\index.2103b895.css.map133761493855214868 0
+56C:\Users\Admin\Desktop\test1\dist\index.2103b895.css.map133761506300074469 0
 76C:\Users\Admin\Desktop\test1\node_modules\caniuse-lite\data\features\spdy.js133759768185782183 0
 88C:\Users\Admin\Desktop\test1\node_modules\caniuse-lite\data\features\speech-synthesis.js133759768185828598 0
 92C:\Users\Admin\Desktop\test1\node_modules\caniuse-lite\data\features\spellcheck-attribute.js133759768185842128 0
@@ -3287,7 +3287,7 @@
 84C:\Users\Admin\Desktop\test1\node_modules\caniuse-lite\data\features\webtransport.js133759768191451790 0
 77C:\Users\Admin\Desktop\test1\node_modules\caniuse-lite\data\features\webvr.js133759768191656479 0
 78C:\Users\Admin\Desktop\test1\node_modules\caniuse-lite\data\features\webvtt.js133759768191765402 0
-62C:\Users\Admin\Desktop\test1\dist\wheel-win-frame.b27264d4.png133761493294156426 0
+62C:\Users\Admin\Desktop\test1\dist\wheel-win-frame.b27264d4.png133761506299139256 0
 82C:\Users\Admin\Desktop\test1\node_modules\caniuse-lite\data\features\webworkers.js133759768191978079 0
 83C:\Users\Admin\Desktop\test1\node_modules\caniuse-lite\data\features\will-change.js133759768192098872 0
 77C:\Users\Admin\Desktop\test1\node_modules\caniuse-lite\data\features\woff2.js133759768192141806 0
@@ -4050,6 +4050,7 @@
 73C:\Users\Admin\Desktop\test1\node_modules\@parcel\profiler\lib\Trace.d.ts133759768091674088 0
 72C:\Users\Admin\Desktop\test1\node_modules\@parcel\profiler\lib\Tracer.js133759768083351172 0
 71C:\Users\Admin\Desktop\test1\node_modules\@parcel\profiler\lib\types.js133759768089120296 0
+54C:\Users\Admin\Desktop\test1\dist\favicon.827baa81.png133761506298208325 0
 60C:\Users\Admin\Desktop\test1\node_modules\@parcel\plugin\lib133759768055757141 1
 64C:\Users\Admin\Desktop\test1\node_modules\@parcel\plugin\LICENSE133759768052655150 0
 75C:\Users\Admin\Desktop\test1\node_modules\@parcel\plugin\src\PluginAPI.d.ts133759768067470461 0
@@ -4359,19 +4360,19 @@
 53C:\Users\Admin\Desktop\test1\node_modules\.bin\semver133759768224209656 0
 57C:\Users\Admin\Desktop\test1\node_modules\.bin\semver.cmd133759768224209656 0
 73C:\Users\Admin\Desktop\test1\node_modules\.bin\update-browserslist-db.ps1133759768224215311 0
-62C:\Users\Admin\Desktop\test1\dist\background-desk.1c92cf61.png133761493294284583 0
-64C:\Users\Admin\Desktop\test1\dist\Background-mobile.df985d74.png133761493294162994 0
-51C:\Users\Admin\Desktop\test1\dist\dice.5fc28165.png133761493294162994 0
+62C:\Users\Admin\Desktop\test1\dist\background-desk.1c92cf61.png133761506299778261 0
+64C:\Users\Admin\Desktop\test1\dist\Background-mobile.df985d74.png133761506298751228 0
+51C:\Users\Admin\Desktop\test1\dist\dice.5fc28165.png133761506298751228 0
 52C:\Users\Admin\Desktop\test1\dist\frame.2ed24bd0.png133761389874329802 0
-62C:\Users\Admin\Desktop\test1\dist\gears-top-right.b3d0bfe6.png133761493294167996 0
-52C:\Users\Admin\Desktop\test1\dist\index.2103b895.css133761493855187133 0
-55C:\Users\Admin\Desktop\test1\dist\index.579125c3.js.map133761493295976468 0
-44C:\Users\Admin\Desktop\test1\dist\index.html133761493294156426 0
-57C:\Users\Admin\Desktop\test1\dist\Left_frame.603e3354.png133761493294156426 0
-51C:\Users\Admin\Desktop\test1\dist\logo.c284f0af.png133761493294958029 0
-58C:\Users\Admin\Desktop\test1\dist\Right_frame.cca68c2c.png133761493294167996 0
-51C:\Users\Admin\Desktop\test1\dist\test1.59712999.js133761493295164993 0
-55C:\Users\Admin\Desktop\test1\dist\test1.59712999.js.map133761493295209935 0
+62C:\Users\Admin\Desktop\test1\dist\gears-top-right.b3d0bfe6.png133761506298751228 0
+52C:\Users\Admin\Desktop\test1\dist\index.2103b895.css133761506300042535 0
+55C:\Users\Admin\Desktop\test1\dist\index.579125c3.js.map133761506299895265 0
+44C:\Users\Admin\Desktop\test1\dist\index.html133761506299956586 0
+57C:\Users\Admin\Desktop\test1\dist\Left_frame.603e3354.png133761506298208325 0
+51C:\Users\Admin\Desktop\test1\dist\logo.c284f0af.png133761506299124979 0
+58C:\Users\Admin\Desktop\test1\dist\Right_frame.cca68c2c.png133761506299129974 0
+51C:\Users\Admin\Desktop\test1\dist\test1.59712999.js133761506298982485 0
+55C:\Users\Admin\Desktop\test1\dist\test1.59712999.js.map133761506299768767 0
 57C:\Users\Admin\Desktop\test1\dist\text-block.f2be5fe8.png133761468690142331 0
-59C:\Users\Admin\Desktop\test1\dist\wheel-center.9162e8f5.png133761493294156426 0
-59C:\Users\Admin\Desktop\test1\dist\wheel-holder.02642c57.png133761493294170641 0
+59C:\Users\Admin\Desktop\test1\dist\wheel-center.9162e8f5.png133761506298198264 0
+59C:\Users\Admin\Desktop\test1\dist\wheel-holder.02642c57.png133761506298249245 0
