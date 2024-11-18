@@ -1,0 +1,52 @@
+@use '../utils/mixins.scss' as *;
+
+.reward {
+  position: fixed;
+  z-index: 5;
+
+  &__wrapper {
+    position: fixed; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0px;
+
+    &--1, &--2 {
+      top: 30%;
+
+      @include onDesktop {
+        top: 44%;
+      }
+    }
+
+
+    &--1 {
+      left: 15%;
+      transform: translate(-50%, 0);
+
+      @include onDesktop {
+        left:27%;
+      }
+    }
+
+    &--2 {
+      transform: translate(50%, 0);
+
+      @include onDesktop {
+        right: 27%;
+      }
+    }
+  }
+
+  &__image {
+    max-width: 130px;
+
+    @include onDesktop {
+      max-width: 300px;
+    }
+  }
+  
+  .hidden {
+    display: none;
+  }
+}

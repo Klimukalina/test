@@ -1,0 +1,45 @@
+@use '../utils/mixins.scss' as *;
+
+.gears {
+  &__photo {
+    &--1 {
+      position: absolute;
+      top: -50px;
+      left: 0;
+      filter: blur(2px);
+      width: 360px;
+      height: 220px;
+      background-image: url("./styles/images/gears-top-left.png");
+      background-repeat: no-repeat;
+
+      @include onDesktop {
+        top: 0;
+        filter: blur(0);
+        width: 360px;
+        height: 220px;
+      }
+    }
+
+    &--2 {
+      @include onDesktop {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 360px;
+        height: 240px;
+        background-image: url("./styles/images/gears-top-right.png");
+        background-repeat: no-repeat;
+      }
+    }
+
+    &--3 {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 247px;
+      height: 243px;
+      background-image: url("./styles/images/gears-bottom-right.png");
+      background-repeat: no-repeat;
+    }
+  }
+}

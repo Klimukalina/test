@@ -1,0 +1,38 @@
+@use "./styles/utils/mixins.scss" as *;
+@use "./styles/blocks/wheel.scss" as *;
+@use "./styles/blocks/page.scss" as *;
+@use "./styles/blocks/gears.scss" as *;
+@use "./styles/blocks/promo.scss" as *;
+@use "./styles/blocks/register.scss" as *;
+@use "./styles/blocks/button.scss" as *;
+@use "./styles/blocks/password.scss" as *;
+@use "./styles/blocks/disk.scss" as *;
+@use "./styles/blocks/reward.scss" as *;
+@use "./styles/blocks/logo.scss" as *;
+
+
+.html {
+  font-family: 'Inter', sans-serif;
+  color: #E21F26;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.body {
+  overflow-x: hidden;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh; 
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}

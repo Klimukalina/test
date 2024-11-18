@@ -1,0 +1,77 @@
+@use '../utils/mixins.scss' as *;
+@use '../utils/vars.scss' as *;
+
+.play-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  z-index: 0;
+
+}
+
+.promo {
+  position: absolute;
+  width: 190px;
+  top: -80px; 
+
+  @include onDesktop {
+    width: 425px;
+    top: 30%;
+  }
+}
+
+.promo__1 {
+  transform: translateX(-50%);
+
+  @include onDesktop {
+    right: 50%;
+  }
+}
+
+.promo__2 {
+  right: 0;
+  transform: translateX(50%); 
+
+  @include onDesktop {
+    left: 50%;
+  }
+}
+
+.promo__image {
+  width: 100%;
+  height: auto;
+}
+
+.promo__text {
+  position: absolute;
+  top: 0px; 
+  font-size: 12px;
+  font-weight: 800;
+  color: $main-color;
+  text-transform: uppercase;
+  
+
+  @include onDesktop {
+    font-size: 22px;
+  }
+
+  &--left {
+    left: 20%;
+    text-align: right;
+
+    @include onDesktop {
+      margin-top: 25px;
+    }
+  }
+
+  &--right {
+    right: 6%;
+    text-align: left;
+
+    @include onDesktop {
+      margin-top: 25px;
+    }
+  }
+}

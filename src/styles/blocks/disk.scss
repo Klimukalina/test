@@ -1,0 +1,67 @@
+@use '../utils/mixins.scss' as *;
+
+.disk {
+  margin: 0;
+
+  &__photo--1 {
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    left: -15px;
+    bottom: -20px;
+    background-image: url("./styles/images/dice.png");
+    background-repeat: no-repeat;
+    animation: bounce 1s ease-in-out infinite;
+
+    @include onDesktop {
+      width: 100%;
+      height: 250px;
+      left: 100px;
+      bottom: 0px;
+      width: 320px;
+      background-image: url("./styles/images/dices-bottom-left.png");
+    }
+
+  }
+
+  &__photo--2 {
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    background-image: url("./styles/images/dice.png");
+    background-repeat: no-repeat;
+    top: 280px;
+    right: -30px;
+    animation: bounce 1.3s ease-in-out infinite;
+
+    @include onDesktop {
+      width: 250px;
+      height: 250px;
+      top: 250px;
+      right: 230px;
+    }
+
+  }
+}
+
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-30px);
+  }
+  40% {
+    transform: translateY(0);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+  80% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}

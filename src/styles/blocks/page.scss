@@ -1,0 +1,20 @@
+@use '../utils/mixins.scss' as *;
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-image: url("./styles/images/Background-mobile.png");
+
+  @include onDesktop {
+    background-image: url("./styles/images/background-desk.png");
+    
+  }
+}

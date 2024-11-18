@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpiIn Landing Page</title>
+  <link rel="icon" type="image/x-icon" href="./styles/images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./main.scss">
+</head>
+
+<body class="body">
+  <main class="page">
+    <div class="container">
+      <div class="logo">
+        <a href="#" class="logo__image">
+          <img src="./styles/images/logo.png" alt="logo" class="logo__image__item">
+        </a>
+      </div>
+      <section class="content">
+        <div class="gears">
+          <div class="gears__photo">
+            <div class="gears__photo--1"></div>
+            <div class="gears__photo--2"></div>
+            <div class="gears__photo--3"></div>
+          </div>
+        </div>
+        <div class="disk">
+          <div class="disk__photo--1"></div>
+          <div class="disk__photo--2"></div>
+        </div>
+      </section>
+  
+      <div class="play-content">
+        <div class="reward" id="rewardBlock">
+          <div class="reward__wrapper reward__wrapper--1 hidden">
+            <img src="./styles/images/bedava.png" alt="Reward 1" class="reward__image reward__image--1">
+          </div>
+          <div class="reward__wrapper reward__wrapper--2 hidden">
+            <img src="./styles/images/bonus.png" alt="Reward 2" class="reward__image reward__image--2">
+          </div>
+        </div>
+
+        <div class="promo promo__1">
+          <img src="./styles/images/text-block.png" alt="Left Frame" class="promo__image">
+          <div class="promo__text promo__text--left">
+            <p>Özel promosyonlar,<br> Doğum günü<br> hediyeleri</p>
+          </div>
+        </div>
+        
+        <div class="promo promo__2">
+          <img src="./styles/images/text-block-2.png" alt="Right Frame" class="promo__image">
+          <div class="promo__text promo__text--right">
+            <p>Doğrulanmış hesaplara, <br> para yatırmadan <br> BEDAVA OYUN</p>
+          </div>
+        </div>
+      
+        <div class="wheel">
+          <img src="./styles/images/wheel-holder.png" alt="wheel" class="wheel__first">
+          <img src="./styles/images/wheel.png" alt="wheel" class="wheel__second">
+          <img src="./styles/images/wheel-center.png" alt="wheel" class="wheel__third">
+          <img src="./styles/images/wheel-win-frame.png" alt="wheel" class="wheel__fourth">
+        </div>
+      
+      </div>
+  
+        <div class="button-container">
+          <button class="button" id="rotateButton">
+            <img src="./styles/images/spinner.png" alt="loader" class="button__photo">
+            Oyna
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <aside class="register hidden" id="registerForm">
+    <form class="register__form">
+      <div class="register__title">
+        <h2 class="register__title__text">Kaydolun</h2>
+      </div>
+      <div class="register__container">
+        <div class="register__promo">
+          <p class="register__promo__text">Bonus</p>
+          <p class="register__promo__text">yatırımlara+100%</p>
+          <p class="register__promo__text register__promo__text--black">+100 bedava oyun</p>
+        </div>
+
+        <div class="register__auth">
+          <h2 class="register__auth__title">Bir hesap oluşturun</h2>
+        </div>
+    
+        <div class="register__buttons">
+          <button class="register__button register__button--email">E-posta ile</button>
+          <button class="register__button register__button--phone">Telefon ile</button>
+        </div>
+    
+        <div class="register__info">
+          <div class="register__field">
+            <label class="register__label" for="email">E-posta (gerekli)</label>
+            <input type="email" id="email" placeholder="E-posta" class="register__input" required>
+            <span class="error-message" id="emailError"></span>
+          </div>
+
+          <div class="register__field hidden" id="phoneField">
+            <label class="register__label" for="phone">Telefon (gerekli)</label>
+            <input type="tel" id="phone" placeholder="Telefon" class="register__input" required>
+            <span class="error-message" id="phoneError"></span>
+          </div>
+    
+          <div class="register__row">
+            <div class="register__select__content">
+              <label class="register__label" for="currency">Para birimi*</label>
+              <div class="register__options">
+                <select id="currency" class="register__input" name="currency" required>
+                  <option value="TRY" class="register__select">TRY</option>
+                  <option value="BRL" class="register__select">BRL</option>
+                  <option value="EUR" class="register__select">EUR</option>
+                  <option value="USD" class="register__select">USD</option>
+                </select>
+              </div>
+            </div>
+    
+            <div class="password__content">
+              <label class="register__label" for="password">Parola (gerekli)</label>
+              <input type="password" id="password" placeholder="Parola" class="register__input" required autocomplete="current-password">
+              <span class="password__icon" id="toggle-password">
+                <img src="./styles/images/hide.svg" alt="Toggle password visibility" class="password-icon">
+              </span>
+            </div>
+          </div>
+        </div>
+    
+        <button type="submit" class="register__submit">Bonus Kazanın</button>
+    
+        <p class="register__login">
+          Hesabınız yok mu? <a href="#" class="register__link"> Giriş yap</a>
+        </p>
+    
+        <div class="register__checkboxes">
+          <label>
+            <input type="checkbox" required checked class="register__checkbox">
+            Hüküm <a href="#" class="register__link">ve koşulları kabul ediyorum</a>
+          </label>
+          <label>
+            <input type="checkbox" required checked class="register__checkbox">E-posta ve SMS yoluyla promosyonlar hakkında bültenler alın
+          </label>
+        </div>
+      </div>
+     </form>
+    </div>
+  </aside>
+  
+  <audio id="spinAudio" src="./styles/audio/808-drums-loop-90-bpm.mp3" preload="auto"></audio>
+  <audio id="bonusAudio" src="./styles/audio/multi-coin-payout.mp3" preload="auto"></audio>
+  <audio id="formAudio" src="./styles/audio/playful-casino-slot-machine-jackpot.mp3" preload="auto"></audio>
+  <script src="./script.js" type="module"></script>
+</body>
+</html>
