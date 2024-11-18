@@ -3,7 +3,8 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel --open --port 3000",
-    "build": "parcel build --public-url=/test-t/"
+    "build": "parcel build --public-url=/test/",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.13.0",
