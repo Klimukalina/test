@@ -5,12 +5,12 @@
   flex-direction: column;
   justify-content: center;
   box-sizing: border-box;
-  overflow: hidden;
   margin: 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  overflow: hidden;
   background-image: url("./styles/images/Background-mobile.png");
 
   @include onDesktop {

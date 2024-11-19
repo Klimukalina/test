@@ -45,6 +45,7 @@
 }
 
 .promo__text {
+  font-family: 'Inter', serif;
   position: absolute;
   top: 0px; 
   font-size: 12px;
@@ -62,6 +63,7 @@
     text-align: right;
 
     @include onDesktop {
+      left: 24%;
       margin-top: 25px;
     }
   }
@@ -71,6 +73,7 @@
     text-align: left;
 
     @include onDesktop {
+      right: 13%;
       margin-top: 25px;
     }
   }

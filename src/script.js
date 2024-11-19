@@ -10,20 +10,27 @@ const togglePasswordIcon = document.getElementById('toggle-password');
 const spinAudio = document.getElementById("spinAudio");
 const formAudio = document.getElementById("formAudio");
 const bonusAudio = document.getElementById("bonusAudio");
-const phoneInput = document.getElementById("phone");
 
 let spinCount = 0;
 
 const reward1 = document.querySelector('.reward__wrapper--1');
 const reward2 = document.querySelector('.reward__wrapper--2');
 
+const phoneError = document.createElement('div');
+phoneError.classList.add('error-message');
+registerForm.appendChild(phoneError);
+
+const emailError = document.createElement('div');
+emailError.classList.add('error-message');
+registerForm.appendChild(emailError);
+
 rotateButton.addEventListener("click", () => {
   if (spinCount < 2) {
     rotateButton.disabled = true;
     spinCount++;
 
-    const startAngle = spinCount === 1 ? 0 : 1117;
-    const endAngle = spinCount === 1 ? 1117 : 1801;
+    const startAngle = spinCount === 1 ? 0 : 757;
+    const endAngle = spinCount === 1 ? 757 : 1441;
 
     const animationName = `spin${spinCount}`;
 
@@ -49,12 +56,11 @@ rotateButton.addEventListener("click", () => {
     spinAudio.play();
     spinAudio.loop = true;
 
-    wheelSecond.style.animation = `${animationName} 6s cubic-bezier(0.1, 0, 0.2, 1) forwards`;
+    wheelSecond.style.animation = `${animationName} 2s cubic-bezier(0.1, 0, 0.2, 1) forwards`;
 
     setTimeout(() => {
       spinAudio.pause();
       spinAudio.currentTime = 0;
-
       if (spinCount === 1) {
         reward1.classList.remove('hidden');
         bonusAudio.currentTime = 0;
@@ -64,15 +70,23 @@ rotateButton.addEventListener("click", () => {
       if (spinCount === 2) {
         reward2.classList.remove('hidden');
         bonusAudio.currentTime = 0;
-        bonusAudio.play(); 
-        registerForm.classList.remove("hidden");
-        formAudio.play();
+        bonusAudio.play();
+
+        setTimeout(() => {
+          registerForm.classList.remove("hidden");
+          formAudio.currentTime = 0;
+          formAudio.play();
+        }, 2000); 
       }
-    }, 7000); 
+    }, 2500); 
 
     setTimeout(() => {
-      rotateButton.disabled = false;
-    }, 5000); 
+      if (spinCount < 2) {
+        rotateButton.disabled = false;
+      } else {
+        rotateButton.disabled = true;
+      }
+    }, 3000); 
   }
 });
 
@@ -102,15 +116,11 @@ togglePasswordIcon.addEventListener('click', function() {
   if (passwordToggleText) {
     passwordToggleText.textContent = isPasswordVisible ? 'Visible' : 'Hidden';
   }
-
-  const newIconSrc = isPasswordVisible ? iconHidePath : iconShowPath;
-  togglePasswordIcon.querySelector('img').setAttribute('src', newIconSrc);
 });
 
 document.addEventListener("DOMContentLoaded", () => {
   const emailButton = document.querySelector(".register__button--email");
   const phoneButton = document.querySelector(".register__button--phone");
-  const backButton = document.querySelector(".register__button--back");
   const emailField = document.getElementById("email");
   const phoneField = document.getElementById("phoneField");
   const emailFieldContainer = emailField.closest(".register__field");
@@ -124,7 +134,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     emailFieldContainer.classList.remove("hidden");
     phoneField.classList.add("hidden");
-    backButton.classList.add("hidden");
 
     selectField.classList.add("email-selected"); 
   });
@@ -135,61 +144,35 @@ document.addEventListener("DOMContentLoaded", () => {
 
     phoneField.classList.remove("hidden");
     emailFieldContainer.classList.add("hidden");
-    backButton.classList.remove("hidden");
 
     selectField.classList.add("phone-selected");
   });
-
-  backButton.addEventListener("click", () => {
-    emailFieldContainer.classList.remove("hidden");
-    phoneField.classList.add("hidden");
-    backButton.classList.add("hidden");
-
-    selectField.classList.remove("phone-selected");
-    selectField.classList.add("email-selected"); 
-
-    emailButton.classList.add("selected");
-    phoneButton.classList.remove("selected");
-  });
 });
 
-emailError.classList.add('error-message');
-phoneError.classList.add('error-message');
-registerForm.appendChild(emailError);
-registerForm.appendChild(phoneError);
+document.addEventListener("DOMContentLoaded", function() {
+  const submitButton = document.querySelector(".register__submit");
+  const emailInput = document.getElementById("email");
+  const phoneInput = document.getElementById("phone");
 
-const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
-const phonePattern = /^\d{10}$/;
+  const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+  const phonePattern = /^\+?\d{1,4}[-.\s]?\(?\d{1,4}\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}$/;
 
-registerForm.addEventListener("submit", function (event) {
-  event.preventDefault();
-  let valid = true;
+  function toggleSubmitButton() {
+    const emailValue = emailInput.value.trim();
+    const phoneValue = phoneInput.value.trim();
 
-  emailError.textContent = '';
-  phoneError.textContent = '';
+    const isEmailValid = emailPattern.test(emailValue);
+    const isPhoneValid = phonePattern.test(phoneValue);
 
-  const email = emailInput.value.trim();
-  if (!emailPattern.test(email)) {
-    valid = false;
-    emailError.textContent = "Lütfen geçerli bir e-posta adresi girin.";
-    emailInput.classList.add('error');
-  } else {
-    emailInput.classList.remove('error');
-  }
-
-  const phoneField = document.getElementById("phoneField");
-  if (!phoneField.classList.contains("hidden")) {
-    const phone = phoneInput.value.trim();
-    if (!phonePattern.test(phone)) {
-      valid = false;
-      phoneError.textContent = "Lütfen geçerli bir telefon numarası girin.";
-      phoneInput.classList.add('error');
+    if ((emailValue && isEmailValid) || (phoneValue && isPhoneValid)) {
+      submitButton.disabled = false;
     } else {
-      phoneInput.classList.remove('error');
+      submitButton.disabled = true;
     }
   }
 
-  if (valid) {
-    registerForm.submit();
-  }
-});
+  emailInput.addEventListener("input", toggleSubmitButton);
+  phoneInput.addEventListener("input", toggleSubmitButton);
+
+  toggleSubmitButton();
+}); 

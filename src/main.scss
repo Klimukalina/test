@@ -12,14 +12,13 @@
 
 
 .html {
+  overflow: hidden;
   font-family: 'Inter', sans-serif;
   color: #E21F26;
   font-size: 12px;
-  overflow: hidden;
 }
 
 .body {
-  overflow-x: hidden;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -33,6 +32,5 @@
   flex-direction: column;
   min-height: 100vh; 
   padding: 20px;
-  box-sizing: border-box;
   overflow: hidden;
 }
